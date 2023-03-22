@@ -1,6 +1,31 @@
 h2{
     text-align: center;
 }
+#Tituloquienes{
+    
+    display: inline-block;
+    position: relative;
+    color: red;
+}
+
+#Tituloquienes::after,#Tituloquienes::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6rem;  
+}
+
+#h1 ::before{
+    left: -140px;
+}
+
+#h1 ::after{
+    left: 140px;
+}
+
+
 .navbar{
     height: 150px;
     --bs-bg-opacity: 1;
@@ -16,3 +41,21 @@ h2{
    background-size: cover;
     height: 40rem;
     }
+
+#PerroFeliz{
+
+    background-image:url(./img/perrocontento.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center center center;
+    height: 30rem;
+}
+
+#Quienessomos{
+    background-color: blue;
+    align-content: center;
+    align-items: center;
+}
+#TextoPerro{
+    align-items: center;
+}
