@@ -1,0 +1,33 @@
+body{
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+} 
+.navbar{
+
+    background-color: rgb(85, 48, 190)!important;
+
+}
+
+#perrofeliz{
+    border-radius: 1rem;
+    box-shadow:  7px 7px 15px #592A08;
+}
+#quienesomos{
+    margin-top: 12rem;
+}
+
+.navbar-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 90px;
+  }
+  .navbar-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #menu{
+    background-color: rgb(85, 48, 190);
+    
+  }
