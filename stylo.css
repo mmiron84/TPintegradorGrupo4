@@ -31,3 +31,17 @@ body{
     background-color: rgb(85, 48, 190);
     
   }
+  #carouselExample {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #tituloLoMejorParaellos{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  
+  
